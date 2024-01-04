@@ -1,7 +1,8 @@
 /* variable */
 :root {
-  --warna-utama: #d62828;
+  --warna-utama: #00cba9;
   --warna-gelap: #0f0f0f;
+  --grey-color: #778899;
 
   --h1-font-size: 40px;
   --h2-font-size: 32px;
@@ -74,5 +75,17 @@ section .section-title {
 }
 
 .portfolio-section {
-  background-color: #00cba9;
+  background-color: var(--warna-utama);
+}
+
+/* skills */
+.skills-section {
+  background-color: var(--warna-utama);
+}
+
+.skills-section .progress-bar {
+  width: 100%;
+  height: 10px;
+  background-color: var(--grey-color);
+  border-radius: 10px;
 }
