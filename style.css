@@ -89,3 +89,20 @@ section .section-title {
   background-color: var(--grey-color);
   border-radius: 10px;
 }
+
+/* news */
+.news-section .card .card-img-top {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .news-section .card p {
+    font-size: 14px;
+  }
+
+  .news-section .card a {
+    font-size: 12px;
+  }
+}
