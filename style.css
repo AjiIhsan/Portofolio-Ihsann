@@ -64,6 +64,10 @@ section .section-title {
   text-transform: uppercase;
 }
 
+.text-yellow {
+  color: var(--warna-utama);
+}
+
 .btn-warna {
   background-color: var(--warna-utama);
   font-weight: bold;
@@ -76,6 +80,22 @@ section .section-title {
 
 .portfolio-section {
   background-color: var(--warna-utama);
+}
+
+.portfolio-section .card .card-img-top {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .portfolio-section .card a {
+    margin: 4px;
+    font-size: 12px;
+  }
+  .portfolio-section .card {
+    font-size: 14px;
+  }
 }
 
 /* skills */
