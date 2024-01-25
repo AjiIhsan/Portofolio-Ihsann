@@ -126,3 +126,7 @@ section .section-title {
     font-size: 12px;
   }
 }
+
+.bg-color {
+  background-color: yellow;
+}
