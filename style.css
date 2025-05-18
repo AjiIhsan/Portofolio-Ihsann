@@ -1,6 +1,6 @@
 /* variable */
 :root {
-  --warna-utama: #00cba9;
+  --warna-utama: #e7008a;
   --warna-gelap: #0f0f0f;
   --grey-color: #778899;
 
@@ -128,5 +128,5 @@ section .section-title {
 }
 
 .bg-color {
-  background-color: yellow;
+  background-color: #e7008a;
 }
